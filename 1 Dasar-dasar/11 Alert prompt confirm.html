@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const masuk = confirm("Yakin Mau Masuk ?");
+        // if(masuk){
+        //     const nama = prompt("Masukan namamu ?");
+        //     alert(nama);
+        // }else{
+        //     alert("Dadah");
+        // }
+        const artistsAndSongs = {
+    "Keyakizaka46": ["Silent Majority"],
+    "Blackpink": ["How You Like That", "Ice Cream"],
+    "JKT48": ["Rapsodi", "Heavy Rotation"],
+    "Twice": ["What is Love?"],
+}
+
+artistsAndSongs["Babymetal"] = ["Gimme chocolate"];
+delete artistsAndSongs["Keyakizaka46"];
+artistsAndSongs["Blackpink"].push("Rose - Gone");
+
+console.log(artistsAndSongs);
+    </script>
+</body>
+</html>
